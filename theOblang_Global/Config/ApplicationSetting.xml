@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  <URL>
+    <Application><![CDATA[https://v45rc.mapcite.com/]]></Application>
+  </URL>
+
+  <credentials>
+    <Username><![CDATA[NavidA]]></Username>
+    <Password><![CDATA[NavidA1]]></Password>
+  </credentials>
+
+
+  <browserdata>
+    <browser><![CDATA[firefox]]></browser>
+  </browserdata>
+  
+</settings>

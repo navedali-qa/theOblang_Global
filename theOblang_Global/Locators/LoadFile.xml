@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+  
+  <MapButton><![CDATA[//a[text()='Map']]]></MapButton>
+  <Import><![CDATA[//a[text()='Import']]]></Import>
+  <Next><![CDATA[//*[@id='DataimportFileWizzard1']/input]]></Next>
+  <Upload><![CDATA[//*[@id='dataUpload']]]></Upload>
+  <ImportHeatmapFile><![CDATA[//input[@onclick='importFile("Heatmap Test UK.csv")']]]></ImportHeatmapFile>
+  <ImportPopulationFile><![CDATA[//input[@onclick='importFile("Choropleth World Countries - False Populations.csv")']]]></ImportPopulationFile>
+  <LonLat><![CDATA[//input[@value='latlng' and @onchange='spatialAspectChange();']]]></LonLat>
+  <Lattitude><![CDATA[//*[@id='latitudeColSelector']]]></Lattitude>
+  <Longitude><![CDATA[//*[@id='longitudeColSelector']]]></Longitude>
+  <LongNext><![CDATA[//*[@id='beginWizzard']]]></LongNext>
+  <CheckBox1><![CDATA[//*[@id='AttributeSelectorDiv']/label]]></CheckBox1>
+  <CheckNext><![CDATA[//*[@id='DataimportFileWizzard4']/input[2]]]></CheckNext>
+  <AuthorityCheck><![CDATA[//td[text()='authority-type']//following::td[1]/input[@type='checkbox']]]></AuthorityCheck>
+  <AuthNext><![CDATA[//*[@id='DataimportFileWizzard5']/input[2]]]></AuthNext>
+  <Numeric><![CDATA[//*[@id='NumericColSelector']]]></Numeric>
+  <NumeNext><![CDATA[//*[@id='DataimportFileWizzard6']/input[2]]]></NumeNext>
+  <Dataset><![CDATA[//*[@id='datasetName']]]></Dataset>
+  <Beginimport><![CDATA[//input[@value='Begin import']]]></Beginimport>
+  <DataSetMenu><![CDATA[//a[text()='Datasets']]]></DataSetMenu>
+  <DataDrop><![CDATA[//*[@id='DeletedatasetSelector']]]></DataDrop>
+  <Admin><![CDATA[//a[text()='Admin']]]></Admin>
+</Locators>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+  <MapButton><![CDATA[//a[text()='Map']]]></MapButton>
+  <SearchBox><![CDATA[//*[@id='searchBox']]]></SearchBox>
+  <SearchButton><![CDATA[//*[@id='BttnfindLocation']]]></SearchButton>
+  <ClearButton><![CDATA[//*[@id='clearSearchMarkers']]]></ClearButton>
+  <HeatmapMenu><![CDATA[//a[text()='Heatmap ']]]></HeatmapMenu>
+  <Heatmapdropdown><![CDATA[//*[@id='HeatmapdatasetSelector']]]></Heatmapdropdown>
+  <HeatCheck><![CDATA[//*[@id='cbShowHeatmap']]]></HeatCheck>
+  <ChoroplethMenu><![CDATA[//a[text()='Choropleth']]]></ChoroplethMenu>
+  <CountryDropdown><![CDATA[//*[@id='ThermaticMapdatasetSelector']]]></CountryDropdown>
+  <Shapeset><![CDATA[//*[@id='ThermaticMapPolygonSelector']]]></Shapeset>
+  <ChoroplethCheck><![CDATA[//*[@id='cbShowThermaticMap']]]></ChoroplethCheck>
+</Locators>

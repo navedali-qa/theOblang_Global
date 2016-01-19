@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+  <MapButton><![CDATA[//a[text()='Map']]]></MapButton>
+  <SearchBox><![CDATA[//*[@id='searchBox']]]></SearchBox>
+  <SearchButton><![CDATA[//*[@id='BttnfindLocation']]]></SearchButton>
+  <ClearButton><![CDATA[//*[@id='clearSearchMarkers']]]></ClearButton>
+  <DatasetMenu><![CDATA[//a[text()='Datasets']]]></DatasetMenu>
+  <ShowDataSet><![CDATA[//input[contains(@id,'cbShowPin_')]]]></ShowDataSet>
+  <VerifyPins><![CDATA[//*[@id='null']/img]]></VerifyPins>
+  <LeftPin><![CDATA[//a/img[@src='/mapcite/pins/medium/red.png']]]></LeftPin>
+  <AnalyticsTab><![CDATA[//a[text()='Analytics']]]></AnalyticsTab>
+  <AnalysisTab><![CDATA[//a[text()='Analysis']]]></AnalysisTab>
+  <LoadFormula><![CDATA[//*[@id='formulaselector']]]></LoadFormula>
+  <Load><![CDATA[//button[text()='Load']]]></Load>
+  <Run><![CDATA[//input[@value='Run' and @onclick='runFormulaAginstLocation();']]]></Run>
+  <FormAgainst><![CDATA[//*[@id='Analytics_runAgainstDSList']]]></FormAgainst>
+  <CloseMarker><![CDATA[//div[contains(@aria-labelledby,'pinInfoWrapper')]/div/a[contains(@class,'ui-dialog-titlebar-close')]/span]]></CloseMarker>
+  <Drawmenu><![CDATA[//a[text()='Draw']]]></Drawmenu>
+  <Rect><![CDATA[//a[@title='Draw a rectangle on the map']]]></Rect>
+  <AnaDrop><![CDATA[//select[@id='PinsdatasetSelector']]]></AnaDrop>
+  <Format><![CDATA[//*[@id='ExportFormatSection']]]></Format>
+  <Export><![CDATA[//input[@value='Export']]]></Export>
+  <AnaticName><![CDATA[//*[@id='runAgainstDSName']]]></AnaticName>
+  <AdminMenu><![CDATA[//a[text()='Admin']]]></AdminMenu>
+  <DataDrop><![CDATA[//*[@id='DeletedatasetSelector']]]></DataDrop>
+  <RunAgainst><![CDATA[//input[@value='Run against dataset']]]></RunAgainst>
+</Locators>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+  <MapButton><![CDATA[//a[text()='Map']]]></MapButton>
+  <username><![CDATA[//*[@id='UserName']]]></username>
+  <password><![CDATA[//*[@id='Password']]]></password>
+  <Login><![CDATA[//input[@value='Log in']]]></Login>
+  <Logout><![CDATA[//a[text()='Log off']]]></Logout>
+</Locators>
